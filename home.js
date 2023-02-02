@@ -23,3 +23,18 @@ function prev(){
         currentImage.src = images[currentIndex];
     }
 }
+function shrink(){
+    currentImage.style.width = (currentImage.clientWidth - 50) + "px";
+}
+function enlarge(){
+    currentImage.style.width = (currentImage.clientWidth + 50) + "px";
+}
+
+
+
+
+
+
+
+
+
