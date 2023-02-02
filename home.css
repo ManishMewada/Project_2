@@ -1,0 +1,44 @@
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.image-container:hover .image-name{
+  display: block;
+}
+
+.image {
+  position: relative;
+  width: 400px;
+  height: auto;
+  transition: 0.5s;
+  align-items: center;
+}
+
+.image-name{
+  position: absolute;
+  bottom: 0;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 10px;
+  display: none;
+}
+
+button {
+  padding: 10px;
+  margin: 30px 10px;
+  position: relative;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: lightgray;
+  border: none;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
