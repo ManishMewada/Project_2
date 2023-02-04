@@ -4,12 +4,12 @@
   <link rel="stylesheet" href="home.css">
 </head>
 
-<body>
-  <h1 style="align-content: center;">Image Carousel</h1>
+<body onload="pageReload()">
+  <h1 style="text-align: center;">Image Carousel</h1>
   <div class="image-container">
     <button onclick="next()"><img class="image" src="images/img1.jpg" alt=""></button>
-    <div class="image-name">This is Image 1</div>
   </div>
+  <p id="image-name"></p>
   <div class="buttons">
     <button onclick="prev()" class="button">Previous</button>
     <button onclick="next()" class="button">Next</button>
