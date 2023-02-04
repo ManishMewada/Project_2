@@ -17,13 +17,10 @@
   align-items: center;
 }
 
-.image-name{
-  position: absolute;
-  bottom: 0;
-  color: rgb(255, 255, 255);
-  width: 100%;
-  padding: 10px;
-  display: none;
+#image-name{
+  text-align: center;
+  font-size: larger;
+  font-weight: 600;
 }
 
 button {
